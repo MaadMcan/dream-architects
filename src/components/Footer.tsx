@@ -1,6 +1,6 @@
 import { PhoneCall, Mail, MapPin } from 'lucide-react'; 
 import { Link } from 'react-router-dom';
-import Logo from './Logo';
+import LogoFooter from './LogoFooter';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Logo and About */}
           <div>
-            <Logo variant="light" className="mb-6" />
+            <LogoFooter />
             <p className="text-neutral-100 text-sm leading-relaxed mb-6">
               We are an award-winning architectural firm dedicated to creating innovative, 
               sustainable, and aesthetically pleasing designs that transform spaces and enhance lives.
@@ -22,11 +22,9 @@ const Footer = () => {
               <h4 className="text-white font-medium mb-4">Navigation</h4>
               <ul className="space-y-2">
                 <li><Link to="/" className="text-neutral-100 hover:text-white text-sm">Home</Link></li>
-                <li><Link to="/services" className="text-neutral-100 hover:text-white text-sm">Services</Link></li>
                 <li><Link to="/about-us" className="text-neutral-100 hover:text-white text-sm">About Us</Link></li>
                 <li><Link to="/team" className="text-neutral-100 hover:text-white text-sm">Our Team</Link></li>
                 <li><Link to="/projects" className="text-neutral-100 hover:text-white text-sm">Projects</Link></li>
-                <li><Link to="/faq" className="text-neutral-100 hover:text-white text-sm">FAQ</Link></li>
                 <li><Link to="/locator" className="text-neutral-100 hover:text-white text-sm">Branch Locator</Link></li>
               </ul>
             </div>
@@ -52,7 +50,7 @@ const Footer = () => {
                   <div>
                     <p className="text-neutral-100 text-sm font-medium">Address:</p>
                     <address className="text-white text-sm not-italic">
-                      Amber Heights, Ground Floor Suite A2<br />
+                      Amani Heights, Ground Floor Suite A2<br />
                       Plot 29/33 Kampala Road<br />
                       Kitintale, Kampala - Uganda
                     </address>

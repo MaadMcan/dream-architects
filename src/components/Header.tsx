@@ -25,7 +25,7 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <Link to="/" className="z-10">
-          <Logo className="h-10 w-auto" />
+          <Logo  />
         </Link>
 
         {/* Desktop Navigation */}
@@ -39,6 +39,11 @@ const Header = () => {
             to="/services" 
             label="Services" 
             isActive={location.pathname === '/services'}
+          />
+          <NavLink 
+            to="/about" 
+            label="About" 
+            isActive={location.pathname === '/about'}
           />
           <NavLink 
             to="/team" 
@@ -135,7 +140,7 @@ const NavLink = ({ to, label, isActive }: NavLinkProps) => {
       className={`font-medium text-sm transition-colors duration-200 ${
         isActive
           ? 'text-primary-500'
-          : 'text-neutral-700 hover:text-primary-500'
+          : 'text-secondary-500 hover:text-primary-500' // Changed from neutral-700 to secondary-500
       }`}
     >
       {label}

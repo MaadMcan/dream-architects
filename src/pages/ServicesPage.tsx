@@ -6,37 +6,43 @@ const services = [
     id: 1,
     number: '1',
     title: 'Architectural Design',
-    description: 'We offer innovative, sustainable design solutions tailored to your needs, balancing aesthetics with functionality to create exceptional spaces that meet your vision. Our architectural designs embrace contemporary principles while respecting context and tradition.',
-    image: 'https://images.pexels.com/photos/5411784/pexels-photo-5411784.jpeg',
+    description:
+      'We offer innovative, sustainable design solutions tailored to your needs, balancing aesthetics with functionality to create exceptional spaces that meet your vision. Our architectural designs embrace contemporary principles while respecting context and tradition.',
+    image: '/images/5.jpg',
   },
   {
     id: 2,
     title: 'Interior Design',
     number: '2',
-    description: 'At Dream Architects, we create within a building spaces that enhance the culture, routine and general mood of our clients. Our interior design services transform spaces into personalized environments that enhance daily living.',
-    image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
+    description:
+      'At Dream Architects, we create within a building spaces that enhance the culture, routine and general mood of our clients. Our interior design services transform spaces into personalized environments that enhance daily living.',
+    image: '/images/10.jpg',
   },
   {
     id: 3,
     number: '3',
     title: 'Project Supervision',
-    description: 'Ensuring precise implementation through comprehensive supervision, guaranteeing your vision becomes reality. We maintain quality control through regular site visits and coordinate with contractors.',
-    image: 'https://images.pexels.com/photos/7108227/pexels-photo-7108227.jpeg',
+    description:
+      'Ensuring precise implementation through comprehensive supervision, guaranteeing your vision becomes reality. We maintain quality control through regular site visits and coordinate with contractors.',
+    image: '/images/7.jpg',
   },
   {
     id: 4,
     number: '4',
     title: 'Project Management',
-    description: 'We help our clients ensure the smooth running of all elements of a project and maintain effective management on all outset projects, from inception to completion.',
-    image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg',
+    description:
+      'We help our clients ensure the smooth running of all elements of a project and maintain effective management on all outset projects, from inception to completion.',
+    image: '/images/8.jpg',
   },
   {
     id: 5,
     number: '5',
     title: 'Landscape Design',
-    description: 'Creating harmonious outdoor spaces that integrate seamlessly with the built environment. Our landscape designs combine aesthetic beauty with ecological functionality.',
-    image: 'https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg',
-  },
+    description:
+      'Creating harmonious outdoor spaces that integrate seamlessly with the built environment. Our landscape designs combine aesthetic beauty with ecological functionality.',
+    image: '/images/9.jpg',
+  }
+  
 ];
 
 const ServicesPage = () => {

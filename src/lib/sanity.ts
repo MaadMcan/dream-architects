@@ -160,16 +160,33 @@ export const getAboutContent = async () => {
   try {
     const about = await client.fetch(`
       *[_type == "about"][0] {
+        hero {
+          title,
+          description,
+          "backgroundImage": backgroundImage.asset->url
+        },
         vision,
         mission,
         coreValues,
+        story {
+          title,
+          content,
+          "image": image.asset->url
+        },
+        philosophy {
+          title,
+          description,
+          "backgroundImage": backgroundImage.asset->url
+        },
+        stats,
+        testimonial
       }
     `);
-
+    
     if (!about) {
       return defaultAbout;
     }
-
+    
     return about;
   } catch (error) {
     console.error('Error fetching about content:', error);

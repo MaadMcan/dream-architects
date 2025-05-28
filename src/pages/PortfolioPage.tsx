@@ -98,8 +98,9 @@ const PortfolioPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&crop=entropy)',
+            backgroundImage: 'url("/images/11.jpg")',
           }}
+          
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>

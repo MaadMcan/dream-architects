@@ -7,7 +7,7 @@ import FaqPage from './pages/FaqPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
-import LocationsPage from './pages/BranchLocator';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -20,7 +20,8 @@ function App() {
         <Route path="team" element={<TeamPage />} />
         <Route path="faq" element={<FaqPage />} />
         <Route path="contact" element={<ContactPage />} />
-        <Route path="branch" element={<LocationsPage />} />
+        <Route path="about" element={<AboutPage />} />
+
       </Route>
     </Routes>
   );

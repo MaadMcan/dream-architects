@@ -185,8 +185,6 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      <br />
-      <br />
     </div>
   );
 };

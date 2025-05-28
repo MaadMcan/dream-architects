@@ -25,10 +25,11 @@ export default {
       type: 'string',
       options: {
         list: [
-          { title: 'Residential', value: 'Residential' },
-          { title: 'Commercial', value: 'Commercial' },
-          { title: 'Hospitality', value: 'Hospitality' },
-          { title: 'Institutional', value: 'Institutional' },
+          { title: 'Private Residential', value: 'Private Residential' },
+          { title: 'Commercial Residential', value: 'Commercial Residential' },
+          { title: 'Commercial Industrial', value: 'Commercial Industrial' },
+          { title: 'Hospitality & Recreational', value: 'Hospitality & Recreational' },
+          { title: 'Institutional Administrative', value: 'Institutional Administrative' },
         ],
       },
       validation: (Rule: any) => Rule.required(),
